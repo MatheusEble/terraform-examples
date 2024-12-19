@@ -1,26 +1,31 @@
 variable "ami_id" {
   description = "ID da imagem AMI para a instância EC2"
-  default = "ami-0e2c8caa4b6378d8c"
+  type        = string
+}
+
+variable "instance_name" {
+  description = "Nome da instância EC2"
+  type        = string
 }
 
 variable "instance_type" {
-  description = "Tipo da instância EC2"
+  description = "Tipo de instância EC2"
+  type        = string
   default     = "t2.micro"
 }
 
 variable "access_key" {
   description = "chave"
-  default     = string
+  type        = string
 }
 
 variable "secret_key" {
   description = "chave"
-  default     = string
+  type        =  string
 }
 
 variable "aws_region" {
   description = "Região AWS para os recursos"
-  type        = string
   default     = "us-east-1"
 }
 
@@ -35,3 +40,7 @@ variable "environment" {
   default     = "dev"
 }
 
+variable "role_name" {
+  description = "Nome da role IAM"
+  type        = string
+}

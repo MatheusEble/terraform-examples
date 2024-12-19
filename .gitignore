@@ -10,7 +10,7 @@ crash.log
 
 # Credenciais locais e arquivos sensíveis
 .terraform/
-*.tf.vars
+*.tfvars
 *.tfvars.json
 override.tf
 override.tf.json

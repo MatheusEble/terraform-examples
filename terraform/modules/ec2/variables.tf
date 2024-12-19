@@ -2,9 +2,14 @@ variable "ami_id" {
   description = "ID da imagem AMI"
 }
 
+variable "instance_name" {
+  description = "Nome da instância EC2"
+  type        = string
+}
+
 variable "instance_type" {
-  description = "Tipo da instância EC2"
-  default     = "t2.micro"
+  description = "Tipo de instância EC2"
+  type        = string
 }
 
 variable "subnet_id" {
@@ -13,4 +18,9 @@ variable "subnet_id" {
 
 variable "security_group" {
   description = "ID do security group para a instância"
+}
+
+variable "iam_role_name" {
+  description = "Nome do IAM Role"
+  type        = string
 }
