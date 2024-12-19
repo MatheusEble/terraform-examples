@@ -1,0 +1,31 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+
+# Logs do Terraform
+crash.log
+
+# Backup de planos do Terraform
+*.tfplan
+
+# Credenciais locais e arquivos sensíveis
+.terraform/
+*.tf.vars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Metadados do Terraform
+.terraform.lock.hcl
+.terraform.tfstate.backup
+
+# Editor específico
+.vscode/
+.idea/
+*.swp
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
