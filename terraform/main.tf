@@ -36,3 +36,14 @@ module "iam" {
   role_name     = var.role_name
   policy_name   = "s3-access-policy"
 }
+
+module "rds" {
+  source            = "./modules/rds"
+  allocated_storage = 30
+  db_instance_class = "db.t3.medium"
+  engine            = "mysql"
+  db_name           = "devdb"
+  db_username       = "admin"
+  db_password       = "password123"
+  cidr_blocks       = ["10.0.0.0/24"]
+}
