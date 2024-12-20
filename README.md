@@ -110,8 +110,7 @@ O seguinte JSON pode ser usado para configurar o sistema:
         }
     ]
 }
-
-
+```
 
 # Terraform com Módulos
 
