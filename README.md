@@ -1,4 +1,4 @@
-# Terraform VPC, EC2, S3 e Security Group com Módulos
+# Terraform com Módulos
 
 Este projeto cria uma infraestrutura na AWS utilizando módulos do Terraform. Ele cria:
 
