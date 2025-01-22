@@ -1,4 +1,4 @@
-# Terraform com Módulos
+# Terraform com Módulos AWS
 
 Este projeto cria uma infraestrutura na AWS utilizando módulos do Terraform. Ele cria:
 
@@ -20,7 +20,7 @@ Este projeto cria uma infraestrutura na AWS utilizando módulos do Terraform. El
    terraform apply
 
 
-## Exemplo de Arquivo JSON Usuario IAM Terraform.
+## Exemplo de Arquivo JSON Usuario IAM (AWS) Terraform.
 
 O seguinte JSON pode ser usado para configurar o sistema:
 
